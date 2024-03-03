@@ -1,0 +1,52 @@
+O QUE É UM ARDUÍNO?
+
+
+Um arduíno é um microcontrolador capaz de executar pequenas tarefas simples, como ligar uma luz ou soar uma sirene.
+
+
+
+
+								COMO PROGRAMAR UM ARDUÍNO?
+
+
+
+CONCEITOS:
+
+void setup(){} - Sessão do código onde é inserida a função criada automaticamente no início do código de programação de um arduíno. É executada apenas uma vez no início do programa e em seguida o mesmo vai para a função de loop, que será repetida sem executar o 'void setup' novamente. A parte do 'void' indica que a função não retornará nenhum valor e 'setup' se refere ao conjunto de definições de quais serão os elementos presentes em nosso arduíno.
+
+void loop(){} - Sessão do código onde é inserida a função que será lida repetidamente logo após a leitura da função 'void setup'. Novamente, 'void' indica que a função não retornará nenhum valor e 'loop' indica essa repetição sem fim que a função oferece.
+
+INPUT - Definine que determinado pino é uma conexão de entrada. Isso significa que essa conexão irá RECEBER SINAIS DE COMANDO ENVIADOS POR OUTRA CONEXÃO.
+
+OUTPUT - Definine que determinado pino é uma conexão de saída. Isso significa que essa conexão irá ENVIAR SINAIS DE COMANDO ATRAVÉS dela para uma outra conexão, que irá recebê-los.
+
+
+
+COMANDOS INICIAIS:
+
+pinMode(pino,modo) - Função que define um pino e o configura como entrada ou saída (INPUT/OUTPUT);
+
+digitalWrite(pino,estado); - Função que te permite definir um pino e a seguir define se ele está ligado ou desligado (HIGH/LOW);
+
+delay(0000) - Função que permite adicionar um tempo de espera entre os comandos no código. Sua contagem é feita a partir de milissegundos (1000ms = 1s).
+
+digitalRead - Comando que armazena um resultado a respeito de um pino. Retorna o valor de 0 ou 1 e você tem que definir o que será feito com essa informação.
+
+
+
+
+									EXEMPLOS:
+
+
+Código simples para acender um LED:
+
+void setup() {
+    pinMode(pino, modo); // Configura o pino como saída ou entrada.
+}
+
+void loop() {
+    digitalWrite(pino, HIGH); // Liga o LED
+    delay(1000); // Aguarda 1 segundo
+    digitalWrite(pino, LOW); // Desliga o LED
+    delay(1000); // Aguarda 1 segundo
+}
