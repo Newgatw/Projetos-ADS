@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0001/Exercicio0001.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0001/Exercicio0001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0002/Exercicio0002.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0002/Exercicio0002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0003/Exercicio0003.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0003/Exercicio0003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0004/Exercicio0004.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0004/Exercicio0004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0005/Exercicio0005.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0005/Exercicio0005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Exercicio0006/Exercicio0006.iml" filepath="$PROJECT_DIR$/Lista03/Exercicio0006/Exercicio0006.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista02/Exercicio001/Exercicio001.iml" filepath="$PROJECT_DIR$/Lista02/Exercicio001/Exercicio001.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista02/Exercicio002/Exercicio002.iml" filepath="$PROJECT_DIR$/Lista02/Exercicio002/Exercicio002.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista02/Exercicio003/Exercicio003.iml" filepath="$PROJECT_DIR$/Lista02/Exercicio003/Exercicio003.iml" />
@@ -39,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lista01/Exercicio20/Exercicio20.iml" filepath="$PROJECT_DIR$/Lista01/Exercicio20/Exercicio20.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista01/Lista01.iml" filepath="$PROJECT_DIR$/Lista01/Lista01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista02/Lista02.iml" filepath="$PROJECT_DIR$/Lista02/Lista02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Lista03.iml" filepath="$PROJECT_DIR$/Lista03/Lista03.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PROJETOS LOG PROG.iml" filepath="$PROJECT_DIR$/.idea/PROJETOS LOG PROG.iml" />
     </modules>
   </component>
