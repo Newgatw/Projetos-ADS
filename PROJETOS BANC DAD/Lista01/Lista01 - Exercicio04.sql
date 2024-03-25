@@ -1,0 +1,4 @@
+CREATE TABLE Paciente(
+id_paciente SERIAL PRIMARY KEY NOT NULL UNIQUE,
+nome_paciente TEXT NOT NULL
+);

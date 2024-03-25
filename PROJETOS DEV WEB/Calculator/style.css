@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    background-image: url('C:/Projetos ADS/PROJETOS DEV WEB/Calculator/1920x1080-px-albert-board-chalk-einstein-math-1629319-wallhere.com.jpg');
+
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0px 10px 50px black;
+}
+#display{
+    width: 97%;
+    padding: 0px;
+    font-size: 5rem;
+    text-align: right;
+    border: 8px ridge rgb(76, 72, 72);
+    background-color: hsl(0, 3%, 18%);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+    border: 6px ridge rgb(76, 72, 72);
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 50%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
+}
